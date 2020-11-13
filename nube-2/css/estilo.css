@@ -1,108 +1,68 @@
 html,body{
-	background: #DCE0E2;
-	margin:0px;
-	min-height:100%;
+	background: #FFFFFF;
 }
 #gral{
-	width: 100%;
-	min-height:100%;
-}
-#contenedor{
-	background-color: #fff;
-	width: 90%;
-	padding-top: 100px;
-	margin: 0 auto;
-	border-radius: 25px;
-	color: gray;
-}
-#contenedor h1{
-	color: white;
-	background-color: #4682b4;
-}
-#contenedor label{
-	color: gray;
-}
-
-#contenedor2{
 	width: 80%;
-	margin: 0 auto;
-	color: white;
+	margin-left: 10%; 
 }
-#cont{
-	background-color: #fff;
-	min-height: 100%;
+#gral h2{
+	color: orange;
+	margin-left: 5%;
+	margin-top: 3%;
 }
-#cont1{
-	min-height: 90%;
-}
-#cont2{
-	min-height: 10%;
+#gral img{
+	margin-left: 5%;
 }
 #men{
-	background-color: #DCE0E2;
-	min-height: 100%;
+	background-color: orange;
+	width: 100%;
 }
-#men h2{
-	margin-top: 20px;
-	text-align: center;
-	color: #4682b4;
-}
-#men h3{
-	margin-top: 20px;
-	text-align: center;
-	color: #4682b4;
-}
-.logo{
-	padding: 50pX;
-}
-
-#formularios {
-	width: 80%;
-	min-height: 850px;
-	margin: 0 auto;
-}
-#pie{
-	background-color: black;
-	padding: 10px;
-	color: white;
-}
-#datos{
-	text-align: right;
-	background-color: black;
-	padding: 10px;
-	color: white;
+p{
+	font-size: 20px;
 }
 ul{
 	list-style:none;
 	margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
 }
 ul li{
+
+	display:inline-block;
 }
 ul li a{
-	background-color: #DCE0E2;
+	background-color: orange;
     font-weight:bold;
-    display: block;
+    font-size: 25px;
     color: black;
-    padding: 8px;
+    padding: 10px;
     text-decoration: none;
 }
 ul li a:hover{
 	text-decoration:none;
 	color: white;
-	background-color: #56AF55;
-	padding: 8px;
+	background-color: #112E8A;
+	padding: 18px;
 }
-#consulta{
+#cont{
+	background-color: #FFFFFF;
+	width: 80%;
+	margin-left: 10%;
+}
+#formularios {
+	width: 80%;
+	min-height: 600px;
 	margin: 0 auto;
 }
-.correcto{
-	color: green;
+#pie{
+	background-color: #112E8A;
+	color: white;
+	width:  100%;
 }
-.incorrecto{
-	color: red;
+#mensaje{
+	padding: 10px;
+	text-align: right;
 }
-.table img{
-	width: 64px;
+#datos{
+	padding: 10px;
 }
